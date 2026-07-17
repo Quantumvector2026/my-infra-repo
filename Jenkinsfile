@@ -20,7 +20,7 @@ pipeline {
     }
 
     environment {
-        AWS_CRED = credentials('aws-credentials-id')
+        AWS_CRED = credentials('aws-creds')
     }
 
     stages {
